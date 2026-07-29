@@ -1,11 +1,114 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cartoon World</title>
+
+<style>
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    background:#e3f2fd;
+}
+
+header{
+    background:#3f51b5;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header p{
+    color:#ffeb3b;
+}
+
+main{
+    width:90%;
+    max-width:900px;
+    margin:30px auto;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-left:8px solid #ff9800;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.03);
+}
+
+.card h2{
+    color:#3f51b5;
+}
+
+.categoria{
+    color:#7b1fa2;
+    font-style:italic;
+}
+
+.nota{
+    color:#ff9800;
+    font-size:20px;
+}
+
+footer{
+    background:#3f51b5;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+
 </head>
+
 <body>
-    
+
+<header>
+    <h1>🎬 Cartoon World</h1>
+    <p>Os desenhos animados mais famosos de todos os tempos.</p>
+</header>
+
+<main>
+
+<div class="card">
+    <h2>🧽 Bob Esponja</h2>
+    <p class="categoria">Categoria: Comédia</p>
+    <p class="nota">★★★★★</p>
+    <p>Bob Esponja vive diversas aventuras na Fenda do Biquíni ao lado de seus amigos Patrick e Lula Molusco.</p>
+</div>
+
+<div class="card">
+    <h2>🐱 Tom e Jerry</h2>
+    <p class="categoria">Categoria: Humor</p>
+    <p class="nota">★★★★★</p>
+    <p>O gato Tom tenta capturar o esperto rato Jerry em episódios cheios de perseguições divertidas.</p>
+</div>
+
+<div class="card">
+    <h2>🐶 Scooby-Doo</h2>
+    <p class="categoria">Categoria: Mistério</p>
+    <p class="nota">★★★★☆</p>
+    <p>Scooby-Doo e sua turma resolvem mistérios envolvendo fantasmas e monstros que quase sempre têm uma explicação.</p>
+</div>
+
+<div class="card">
+    <h2>⚡ Ben 10</h2>
+    <p class="categoria">Categoria: Aventura</p>
+    <p class="nota">★★★★☆</p>
+    <p>Ben Tennyson usa o Omnitrix para se transformar em diversos alienígenas e proteger o planeta.</p>
+</div>
+
+</main>
+
+<footer>
+    <p>© 2026 - Cartoon World | O universo dos desenhos animados</p>
+</footer>
+
 </body>
 </html>
